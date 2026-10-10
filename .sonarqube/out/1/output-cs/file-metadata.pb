@@ -1,0 +1,9 @@
+p
+eC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.csutf-8ƒ
+xC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8r
+gC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\obj\Debug\net8.0\Application.GlobalUsings.g.csutf-8`
+WC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Validators\ProductValidator.csutf-8\
+SC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Services\ProductService.csutf-8X
+OC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Services\Calculator.csutf-8_
+VC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Interfaces\IProductService.csutf-8T
+KC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\DTOs\ProductDto.csutf-8

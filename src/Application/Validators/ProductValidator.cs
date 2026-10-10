@@ -1,15 +1,12 @@
-namespace Application.Validators;
+﻿using Application.DTOs;
 
-using Application.DTOs;
+namespace Application.Validators;
 
 public static class ProductValidator
 {
     public static void Validate(CreateProductRequest request)
     {
-        if (request is null)
-        {
-            throw new ArgumentNullException(nameof(request));
-        }
+        ArgumentNullException.ThrowIfNull(request);
 
         if (string.IsNullOrWhiteSpace(request.Name))
         {

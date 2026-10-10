@@ -1,27 +1,14 @@
 # BadCleanArch
 
-Repositorio de ejemplo para una solución C# aplicando principios de Clean Architecture.
+Proyecto de arquitectura limpia en .NET 8 con Clean Architecture, implementando las mejores prácticas de diseño de software y análisis de calidad de código.
 
-## Objetivo
+## Descripción
 
-Esta solución separa las responsabilidades en capas para mejorar la calidad, mantenibilidad y evolución del software. El proyecto incluye:
+BadCleanArch es una solución que demuestra la implementación correcta de **Clean Architecture** en C#. El proyecto incluye:
 
-- Domain: entidades, reglas del negocio y contratos.
-- Application: casos de uso, validaciones y servicios.
-- Infrastructure: implementación de repositorios y persistencia.
-- WebApi: capa HTTP para exponer la funcionalidad.
+- **Domain Layer**: Entidades del negocio (Product)
+- **Application Layer**: Lógica de negocio, servicios y validadores
+- **Infrastructure Layer**: Implementación de repositorios y acceso a datos
+- **Web API Layer**: Controladores REST y configuración de la aplicación
 
-## Ejecución
-
-```bash
-dotnet restore
-dotnet build
-```
-
-```bash
-dotnet run --project src/WebApi/WebApi.csproj
-```
-
-## Análisis con SonarQube
-
-El proyecto está preparado para análisis estático con SonarQube mediante `sonar-project.properties` y configuración de analizadores.
+## Estructura del Proyecto

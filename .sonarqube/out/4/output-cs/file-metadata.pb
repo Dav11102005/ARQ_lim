@@ -1,0 +1,14 @@
+{
+pC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\obj\Debug\net10.0\BadCleanArch.Tests.AssemblyInfo.csutf-8}
+rC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\obj\Debug\net10.0\BadCleanArch.Tests.GlobalUsings.g.csutf-8ˆ
+}C:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8Q
+HC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\UnitTest1.csutf-8y
+nC:\Users\Windows\.nuget\packages\microsoft.net.test.sdk\17.14.1\build\net8.0\Microsoft.NET.Test.Sdk.Program.csutf-8]
+TC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\ProductValidatorTests.csutf-8[
+RC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\ProductServiceTests.csutf-8m
+dC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\IntegrationTests\WebHostProductsTests.csutf-8_
+VC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\ProductsControllerTests.csutf-8{
+rC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\IntegrationTests\ProductsControllerIntegrationTests.csutf-8z
+qC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\InfrastructureTests\InMemoryProductRepositoryTests.csutf-8W
+NC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\CalculatorTests.csutf-8f
+]C:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\DomainTests\ProductEntityTests.csutf-8

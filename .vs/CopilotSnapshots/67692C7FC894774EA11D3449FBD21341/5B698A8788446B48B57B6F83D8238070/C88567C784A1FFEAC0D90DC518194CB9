@@ -1,0 +1,39 @@
+﻿using WebApi.Controllers;
+using Xunit;
+using Application.Interfaces;
+using Application.DTOs;
+
+namespace BadCleanArch.Tests;
+
+public class ProductsControllerTests
+{
+    private class FakeProductService : IProductService
+    {
+        public Task<ProductDto> CreateAsync(CreateProductRequest request)
+        {
+            var dto = new ProductDto(Guid.Empty, string.Empty, string.Empty, 0m, DateTime.UtcNow);
+            return Task.FromResult(dto);
+        }
+
+        public Task<IEnumerable<ProductDto>> GetAllAsync()
+        {
+            IEnumerable<ProductDto> list = Array.Empty<ProductDto>();
+            return Task.FromResult(list);
+        }
+
+        public Task<ProductDto?> GetByIdAsync(Guid id)
+        {
+            return Task.FromResult<ProductDto?>(null);
+        }
+    }
+
+    [Fact]
+    public async Task GetAll_ShouldReturnNotNull()
+    {
+        var controller = new ProductsController(new FakeProductService());
+
+        var result = await controller.GetAll();
+
+        Assert.NotNull(result);
+    }
+}

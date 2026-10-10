@@ -1,0 +1,1 @@
+^RQC:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Infrastructure\Infrastructure.csprojòCSharp12

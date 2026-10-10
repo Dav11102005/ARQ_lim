@@ -40,16 +40,17 @@ public class ProductsController : ControllerBase
     {
         try
         {
-            var createdProduct = await _productService.CreateAsync(request);
-            return CreatedAtAction(nameof(GetById), new { id = createdProduct.Id }, createdProduct);
+            var created = await _productService.CreateAsync(request);
+
+            return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
         catch (ArgumentException ex)
         {
             return BadRequest(ex.Message);
         }
-        catch (ArgumentOutOfRangeException ex)
+        catch (Exception ex)
         {
-            return BadRequest(ex.Message);
+            return StatusCode(500, ex.Message);
         }
     }
 }

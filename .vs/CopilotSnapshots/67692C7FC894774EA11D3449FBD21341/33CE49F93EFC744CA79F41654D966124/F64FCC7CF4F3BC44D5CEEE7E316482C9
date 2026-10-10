@@ -1,0 +1,17 @@
+﻿using WebApi.Controllers;
+using Xunit;
+
+namespace BadCleanArch.Tests;
+
+public class ProductsControllerTests
+{
+    [Fact]
+    public void Get_ShouldReturnNotNull()
+    {
+        var controller = new ProductsController();
+
+        var result = controller.Get();
+
+        Assert.NotNull(result);
+    }
+}

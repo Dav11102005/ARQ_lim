@@ -1,0 +1,6 @@
+﻿C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\WebApi\Controllers\ProductsController.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\WebApi\Program.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\WebApi\obj\Debug\net10.0\WebApi.GlobalUsings.g.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\WebApi\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\WebApi\obj\Debug\net10.0\WebApi.AssemblyInfo.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\WebApi\obj\Debug\net10.0\WebApi.MvcApplicationPartsAssemblyInfo.cs

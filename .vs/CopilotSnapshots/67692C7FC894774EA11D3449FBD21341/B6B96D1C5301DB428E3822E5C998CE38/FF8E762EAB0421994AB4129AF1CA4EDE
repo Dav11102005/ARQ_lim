@@ -1,0 +1,65 @@
+﻿using System.Net;
+using Application.DTOs;
+using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Xunit;
+using WebApi.Controllers;
+using Application.Interfaces;
+
+namespace BadCleanArch.Tests.IntegrationTests;
+
+public class ProductsControllerIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
+{
+    private readonly WebApplicationFactory<Program> _factory;
+
+    private class FakeProductService : IProductService
+    {
+        public Task<ProductDto> CreateAsync(CreateProductRequest request)
+        {
+            var dto = new ProductDto(Guid.NewGuid(), request.Name, request.Description, request.Price, DateTime.UtcNow);
+            return Task.FromResult(dto);
+        }
+
+        public Task<IEnumerable<ProductDto>> GetAllAsync()
+        {
+            IEnumerable<ProductDto> list = new[] { new ProductDto(Guid.NewGuid(), "P", "D", 1m, DateTime.UtcNow) };
+            return Task.FromResult(list);
+        }
+
+        public Task<ProductDto?> GetByIdAsync(Guid id)
+        {
+            var dto = new ProductDto(id, "P", "D", 1m, DateTime.UtcNow);
+            return Task.FromResult<ProductDto?>(dto);
+        }
+    }
+
+    public ProductsControllerIntegrationTests(WebApplicationFactory<Program> factory)
+    {
+        _factory = factory.WithWebHostBuilder(builder =>
+        {
+            // Ensure developer exception page is enabled so response contains error details
+            builder.UseEnvironment("Development");
+
+            builder.ConfigureServices(services =>
+            {
+                // Replace IProductService with fake implementation for tests
+                services.RemoveAll<IProductService>();
+                services.AddSingleton<IProductService, FakeProductService>();
+            });
+        });
+    }
+
+    [Fact]
+    public async Task GetAllEndpoint_ShouldReturnOk()
+    {
+        var client = _factory.CreateClient();
+
+        var response = await client.GetAsync("/api/Products");
+
+        var content = await response.Content.ReadAsStringAsync();
+        // Include response content in assertion message to help diagnose server errors
+        Assert.True(response.IsSuccessStatusCode, $"Expected 2xx OK but got {(int)response.StatusCode} {response.StatusCode}. Response content:\n{content}");
+        Assert.False(string.IsNullOrWhiteSpace(content));
+    }
+}

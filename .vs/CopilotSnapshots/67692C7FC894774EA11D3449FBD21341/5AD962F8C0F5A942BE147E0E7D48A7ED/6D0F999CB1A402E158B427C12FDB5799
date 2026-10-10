@@ -1,0 +1,93 @@
+﻿using WebApi.Controllers;
+using Xunit;
+using Application.Interfaces;
+using Application.DTOs;
+
+namespace BadCleanArch.Tests;
+
+public class ProductsControllerTests
+{
+    private class FakeProductService : IProductService
+    {
+        public Task<ProductDto> CreateAsync(CreateProductRequest request)
+        {
+            var dto = new ProductDto(Guid.Empty, string.Empty, string.Empty, 0m, DateTime.UtcNow);
+            return Task.FromResult(dto);
+        }
+
+        public Task<IEnumerable<ProductDto>> GetAllAsync()
+        {
+            IEnumerable<ProductDto> list = Array.Empty<ProductDto>();
+            return Task.FromResult(list);
+        }
+
+        public Task<ProductDto?> GetByIdAsync(Guid id)
+        {
+            return Task.FromResult<ProductDto?>(null);
+        }
+    }
+
+    [Fact]
+    public async Task GetAll_ShouldReturnNotNull()
+    {
+        var controller = new ProductsController(new FakeProductService());
+
+        var result = await controller.GetAll();
+
+        Assert.NotNull(result);
+    }
+
+    [Fact]
+    public async Task GetById_WhenNotFound_ReturnsNotFound()
+    {
+        var controller = new ProductsController(new FakeProductService());
+
+        var result = await controller.GetById(Guid.NewGuid());
+
+        Assert.IsType<NotFoundResult>(result.Result);
+    }
+
+    private class FakeProductServiceForCreate : IProductService
+    {
+        private readonly ProductDto _dto;
+
+        public FakeProductServiceForCreate(ProductDto dto) => _dto = dto;
+
+        public Task<ProductDto> CreateAsync(CreateProductRequest request) => Task.FromResult(_dto);
+        public Task<IEnumerable<ProductDto>> GetAllAsync() => Task.FromResult<IEnumerable<ProductDto>>(Array.Empty<ProductDto>());
+        public Task<ProductDto?> GetByIdAsync(Guid id) => Task.FromResult<ProductDto?>(_dto);
+    }
+
+    [Fact]
+    public async Task Create_WhenSuccess_ReturnsCreatedAtAction()
+    {
+        var expected = new ProductDto(Guid.NewGuid(), "Name", "Desc", 10m, DateTime.UtcNow);
+        var service = new FakeProductServiceForCreate(expected);
+        var controller = new ProductsController(service);
+
+        var request = new CreateProductRequest("Name", "Desc", 10m);
+        var result = await controller.Create(request);
+
+        var created = Assert.IsType<CreatedAtActionResult>(result.Result);
+        Assert.Equal(expected, created.Value);
+    }
+
+    private class FakeProductServiceThatThrows : IProductService
+    {
+        public Task<ProductDto> CreateAsync(CreateProductRequest request) => throw new ArgumentException("invalid");
+        public Task<IEnumerable<ProductDto>> GetAllAsync() => Task.FromResult<IEnumerable<ProductDto>>(Array.Empty<ProductDto>());
+        public Task<ProductDto?> GetByIdAsync(Guid id) => Task.FromResult<ProductDto?>(null);
+    }
+
+    [Fact]
+    public async Task Create_WhenServiceThrowsArgumentException_ReturnsBadRequest()
+    {
+        var service = new FakeProductServiceThatThrows();
+        var controller = new ProductsController(service);
+
+        var request = new CreateProductRequest("Name", "Desc", 5m);
+        var result = await controller.Create(request);
+
+        Assert.IsType<BadRequestObjectResult>(result.Result);
+    }
+}

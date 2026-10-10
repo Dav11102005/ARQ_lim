@@ -1,0 +1,5 @@
+﻿C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\DTOs\ProductDto.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Interfaces\IProductService.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Services\Calculator.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Services\ProductService.cs
+C:\Users\Windows\Downloads\ARQ_lim_nuevo\src\Application\Validators\ProductValidator.cs

@@ -1,0 +1,1 @@
+bRUC:\Users\Windows\Downloads\ARQ_lim_nuevo\BadCleanArch.Tests\BadCleanArch.Tests.csprojòCSharp14

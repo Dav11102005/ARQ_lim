@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\productvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\productvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\WebApi\\WebApi.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\src\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Application\\Application.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\src\\application\\services\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Application\\Application.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\src\\application\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Application\\Application.csproj|solutionrelative:src\\application\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\WebApi\\WebApi.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\src\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\WebApi\\WebApi.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\src\\webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\badcleanarch.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\badcleanarch.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\integrationtests\\productscontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\integrationtests\\productscontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\integrationtests\\webhostproductstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\integrationtests\\webhostproductstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\infrastructuretests\\inmemoryproductrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\infrastructuretests\\inmemoryproductrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|c:\\users\\windows\\downloads\\arq_lim_nuevo\\badcleanarch.tests\\domaintests\\productentitytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9026B6-EE37-464E-BD30-A3CDA5E4D975}|BadCleanArch.Tests\\BadCleanArch.Tests.csproj|solutionrelative:badcleanarch.tests\\domaintests\\productentitytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductEntityTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\DomainTests\\ProductEntityTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\DomainTests\\ProductEntityTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\DomainTests\\ProductEntityTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\DomainTests\\ProductEntityTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T09:29:36.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InMemoryProductRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\InfrastructureTests\\InMemoryProductRepositoryTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\InfrastructureTests\\InMemoryProductRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\InfrastructureTests\\InMemoryProductRepositoryTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\InfrastructureTests\\InMemoryProductRepositoryTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T09:29:30.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\ProductServiceTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\ProductServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T09:29:21.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebHostProductsTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\IntegrationTests\\WebHostProductsTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\IntegrationTests\\WebHostProductsTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\IntegrationTests\\WebHostProductsTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\IntegrationTests\\WebHostProductsTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T09:16:29.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\IntegrationTests\\ProductsControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\IntegrationTests\\ProductsControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\IntegrationTests\\ProductsControllerIntegrationTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\IntegrationTests\\ProductsControllerIntegrationTests.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAIBJwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:45:10.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BadCleanArch.Tests",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\BadCleanArch.Tests.csproj",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\BadCleanArch.Tests.csproj",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\BadCleanArch.Tests.csproj",
+              "RelativeToolTip": "BadCleanArch.Tests\\BadCleanArch.Tests.csproj",
+              "ViewState": "AgIAAB0AAAAAAAAAAABBwCAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-10T08:45:04.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\ProductValidatorTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\ProductValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\ProductValidatorTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\ProductValidatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:36:46.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\ProductsControllerTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\ProductsControllerTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\ProductsControllerTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\ProductsControllerTests.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:31:05.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\Application\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\Application\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "src\\Application\\Validators\\ProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:28:35.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\CalculatorTests.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\CalculatorTests.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\CalculatorTests.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\CalculatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:23:52.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\Application\\Services\\Calculator.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\Calculator.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\Application\\Services\\Calculator.cs",
+              "RelativeToolTip": "src\\Application\\Services\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:23:26.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "BadCleanArch.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\BadCleanArch.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "BadCleanArch.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:13:31.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "src\\WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "src\\WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-10T08:06:26.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\WebApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\WebApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "src\\WebApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIBJwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:55:16.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows\\Downloads\\ARQ_lim_nuevo\\src\\WebApi\\Program.cs",
+              "RelativeToolTip": "src\\WebApi\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAnwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:52:21.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
