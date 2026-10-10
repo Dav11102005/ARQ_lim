@@ -2,6 +2,7 @@ namespace Application.Services;
 
 using Application.DTOs;
 using Application.Interfaces;
+using Application.Validators;
 using Domain.Entities;
 using Domain.Interfaces;
 
@@ -11,7 +12,7 @@ public class ProductService : IProductService
 
     public ProductService(IProductRepository productRepository)
     {
-        _productRepository = productRepository;
+        _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
     }
 
     public async Task<IEnumerable<ProductDto>> GetAllAsync()
@@ -28,15 +29,7 @@ public class ProductService : IProductService
 
     public async Task<ProductDto> CreateAsync(CreateProductRequest request)
     {
-        if (string.IsNullOrWhiteSpace(request.Name))
-        {
-            throw new ArgumentException("El nombre del producto es obligatorio.", nameof(request));
-        }
-
-        if (request.Price <= 0)
-        {
-            throw new ArgumentOutOfRangeException(nameof(request), "El precio debe ser mayor que cero.");
-        }
+        ProductValidator.Validate(request);
 
         var product = new Product
         {
@@ -51,6 +44,8 @@ public class ProductService : IProductService
 
     private static ProductDto MapToDto(Product product)
     {
+        ArgumentNullException.ThrowIfNull(product);
+
         return new ProductDto(
             product.Id,
             product.Name,
